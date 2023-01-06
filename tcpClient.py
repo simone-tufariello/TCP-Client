@@ -6,8 +6,8 @@ target_host = "www.google.com"
 target_port = "80"
 
 # creiamo un oggetto socket
-# SOCK_STREAM = usiamo indirizzo IPv4
-# AF_INET = creiamo una socket TCP
+# AF_INET = usiamo indirizzo IPv4
+# SOCK_STREAM = creiamo una socket TCP
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 # connettiamo il client
